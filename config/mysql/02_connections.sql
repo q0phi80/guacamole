@@ -25,7 +25,7 @@ INSERT INTO guacamole_connection_parameter VALUES (1, 'password', 'Password@1');
 INSERT INTO guacamole_connection_parameter VALUES (1, 'domain', 'first');
 INSERT INTO guacamole_connection_parameter VALUES (1, 'security', 'any');
 INSERT INTO guacamole_connection_parameter VALUES (1, 'ignore-cert', 'true');
-INSERT INTO guacamole_connection_parameter VALUES (2, 'color-depth', '32');
+INSERT INTO guacamole_connection_parameter VALUES (1, 'color-depth', '32');
 -- Add parameters to the Kali Linux connection
 INSERT INTO guacamole_connection_parameter VALUES (2, 'hostname', '10.0.1.11');
 INSERT INTO guacamole_connection_parameter VALUES (2, 'port', '3390');
