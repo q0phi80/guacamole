@@ -44,8 +44,8 @@ services:
         links:
             - guacd
         # Uncomment if you want to use guacamole without nginx proxy
-        # ports:
-        # - 8080:8080/tcp
+        ports:
+            - 8080:8080/tcp
 
 # - mysql ----------------------------------------------------------------
     mysql:
