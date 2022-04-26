@@ -23,7 +23,7 @@ export SCRIPT_BIN="$(cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P)"
 export SCRIPT_BASE="$(dirname ${SCRIPT_BIN})"
 export EMAIL=${EMAIL:-""}   # Adding a valid address is strongly recommended
 export HOSTNAME=${HOSTNAME:-$(hostname)}
-export DOMAINNAME=${DOMAINNAME:-"trivadislabs.com"}
+export DOMAINNAME=${DOMAINNAME:-"afro.wtf"}
 export STAGING_ENABLE=${STAGING_ENABLE:-0} # Set to 1 if you're testing your setup to avoid hitting request limits
 
 domains=(${HOSTNAME}.${DOMAINNAME})
@@ -69,7 +69,7 @@ if [ ! -d "$data_path" ]; then
     openssl req -x509 -nodes -newkey rsa:4096 -days 1\
       -keyout '$path/privkey.pem' \
       -out '$path/fullchain.pem' \
-      -subj '/CN=localhost'" certbot
+      -subj '/CN=afro.wtf'" certbot
 
   echo "INFO: Starting nginx ..." 
   docker-compose up --force-recreate -d nginx
