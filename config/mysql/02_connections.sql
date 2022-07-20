@@ -20,9 +20,9 @@ INSERT INTO guacamole_connection (connection_name, protocol) VALUES ('Kali (Atta
 -- Add parameters to the Windows connection
 INSERT INTO guacamole_connection_parameter VALUES (1, 'hostname', '10.0.1.53');
 INSERT INTO guacamole_connection_parameter VALUES (1, 'port', '3389');
-INSERT INTO guacamole_connection_parameter VALUES (1, 'username', 'admin');
+INSERT INTO guacamole_connection_parameter VALUES (1, 'username', 'wakandan');
 INSERT INTO guacamole_connection_parameter VALUES (1, 'password', 'Password@1');
--- INSERT INTO guacamole_connection_parameter VALUES (1, 'domain', 'first');
+INSERT INTO guacamole_connection_parameter VALUES (1, 'domain', 'bast');
 INSERT INTO guacamole_connection_parameter VALUES (1, 'security', 'any');
 INSERT INTO guacamole_connection_parameter VALUES (1, 'ignore-cert', 'true');
 INSERT INTO guacamole_connection_parameter VALUES (1, 'color-depth', '32');
